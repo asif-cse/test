@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "474212478655",
+    "firebase_url": "https://farzana-collection.firebaseio.com",
+    "project_id": "farzana-collection",
+    "storage_bucket": "farzana-collection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474212478655:android:bd1bcff6de644422f6e00a",
+        "android_client_info": {
+          "package_name": "com.farzana.farzanacollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474212478655-8hri0kqj600l2f5vrbn2n9p49u8dpar5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farzana.farzanacollection",
+            "certificate_hash": "3cff858d81d6c95025d7246b366d136aac1253ee"
+          }
+        },
+        {
+          "client_id": "474212478655-n5ip1e4lvjoagnli4850rbenqqautu9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUUFZc03N1mvN9TK9wJlxoyr3Zr_MF0_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474212478655-n5ip1e4lvjoagnli4850rbenqqautu9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

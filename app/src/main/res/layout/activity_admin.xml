@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewProductActivity">
+
+    <ImageView
+        android:id="@+id/select_product_imageId"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/app_logo"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_design"
+        android:scaleType="centerCrop"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColorHint="@color/gray"
+        android:layout_below="@+id/select_product_imageId"
+        android:id="@+id/product_name_wrapperId">
+        <EditText
+            android:id="@+id/edt_product_nameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/input_design"
+            android:hint="@string/product_name"
+            android:inputType="textMultiLine"
+            android:textColor="@color/gray"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gray"
+        android:layout_below="@+id/product_name_wrapperId"
+        android:id="@+id/product_description_wrapperId">
+        <EditText
+            android:id="@+id/edt_product_descriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/input_design"
+            android:hint="@string/product_description"
+            android:inputType="textMultiLine"
+            android:textColor="@color/gray"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gray"
+        android:layout_below="@+id/product_description_wrapperId"
+        android:id="@+id/product_price_wrapperId">
+        <EditText
+            android:id="@+id/edt_product_priceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/input_design"
+            android:hint="@string/product_price"
+            android:inputType="textMultiLine"
+            android:textColor="@color/gray"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_add_new_productId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price_wrapperId"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:background="@drawable/buttons"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/add_product"/>
+
+</RelativeLayout>

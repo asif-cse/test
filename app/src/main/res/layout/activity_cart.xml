@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <RelativeLayout
+        android:id="@+id/relid1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/total_priceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price = "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cart_listId"
+        android:layout_below="@+id/relid1"
+        android:layout_above="@+id/btn_next"
+     >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
